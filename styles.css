@@ -15,6 +15,7 @@ body {
     width: 90vmin; 
     height: 70vmin;
     background-color: black;
+    border-radius: 30px;
     position: relative;
     cursor: none;
 }
@@ -28,40 +29,47 @@ body {
 
 .cursor:nth-child(1) {
     background-image: url(./imgs/1.svg);
-    z-index: 3;
+    z-index: 8;
 }
 
 .cursor:nth-child(2) {
     background-image: url('./imgs/2.svg');
-    transition: all .1s;
+    transition: all .1s ease-out;
+    z-index: 7;
 }
 
 .cursor:nth-child(3) {
     background-image: url('./imgs/3.svg');
-    transition: all .2s;
+    transition: all .2s ease-out;
+    z-index: 6;
 }
 
 .cursor:nth-child(4) {
     background-image: url('./imgs/4.svg');
-    transition: all .3s;
+    transition: all .3s ease-out;
+    z-index: 5;
 }
 
 .cursor:nth-child(5) {
     background-image: url('./imgs/5.svg');
-    transition: all .4s;
+    transition: all .4s ease-out;
+    z-index: 4;
 }
 
 .cursor:nth-child(6) {
     background-image: url('./imgs/6.svg');
-    transition: all .5s;
+    transition: all .5s ease-out;
+    z-index: 3;
 }
 
 .cursor:nth-child(7) {
     background-image: url('./imgs/7.svg');
-    transition: all .6s;
+    transition: all .6s ease-out;
+    z-index: 2;
 }
 
 .cursor:nth-child(8) {
     background-image: url('./imgs/8.svg');
-    transition: all .7s;
+    transition: all .7s ease-out;
+    z-index: 1;
 }
