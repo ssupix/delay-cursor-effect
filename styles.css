@@ -68,8 +68,42 @@ body {
     z-index: 2;
 }
 
-.cursor:nth-child(8) {
-    background-image: url('./imgs/8.svg');
-    transition: all .7s ease-out;
-    z-index: 1;
+
+@media only screen and (max-width: 868px) {
+    
+    .cursor:nth-child(2) {
+        background-image: url('./imgs/2.svg');
+        transition: all .2s ease-out;
+        z-index: 7;
+    }
+    
+    .cursor:nth-child(3) {
+        background-image: url('./imgs/3.svg');
+        transition: all .4s ease-out;
+        z-index: 6;
+    }
+    
+    .cursor:nth-child(4) {
+        background-image: url('./imgs/4.svg');
+        transition: all .6s ease-out;
+        z-index: 5;
+    }
+    
+    .cursor:nth-child(5) {
+        background-image: url('./imgs/5.svg');
+        transition: all .8s ease-out;
+        z-index: 4;
+    }
+    
+    .cursor:nth-child(6) {
+        background-image: url('./imgs/6.svg');
+        transition: all 1s ease-out;
+        z-index: 3;
+    }
+    
+    .cursor:nth-child(7) {
+        background-image: url('./imgs/7.svg');
+        transition: all 1.2s ease-out;
+        z-index: 2;
+    }
 }
